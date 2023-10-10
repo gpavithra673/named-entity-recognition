@@ -36,7 +36,8 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 ## PROGRAM:
 
 ### Libraries:
-python
+```
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -174,7 +175,7 @@ print("-" *30)
 for w, true, pred in zip(X_test[i], y_true, p[0]):
     print("{:15}{}\t{}".format(words[w-1], tags[true], tags[pred]))
 
-
+```
 ## OUTPUT:
 
 ### Training Loss, Validation Loss Vs Iteration Plot:
