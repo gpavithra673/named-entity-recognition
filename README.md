@@ -1,4 +1,4 @@
-# EXP-5: Named Entity Recognition
+# EXP-6: Named Entity Recognition
 
 ## AIM
 
